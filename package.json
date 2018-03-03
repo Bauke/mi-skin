@@ -1,0 +1,14 @@
+{
+  "name": "mi-skin",
+  "version": "1.0.0",
+  "dependencies": {
+    "klaw-sync": "^3.0.2",
+    "rimraf": "^2.6.2",
+    "svg-to-png": "^3.1.2"
+  },
+  "scripts": {
+    "test": "node convert.js --test",
+    "build": "node convert.js --build",
+    "prod": "node convert.js --prod"
+  }
+}
