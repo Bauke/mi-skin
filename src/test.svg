@@ -1,0 +1,5 @@
+<!--This file is used by convert.js to test whether svg-to-png works. If you build the .png files this one will be deleted after so it won't be included.-->
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px">
+    <rect width="100px" height="100px"/>
+    <rect width="25px" height="25px" style="fill: red"/>
+</svg>
