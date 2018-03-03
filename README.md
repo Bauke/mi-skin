@@ -36,3 +36,8 @@ If you encounter any problems with the skin, developing the skin or want to sugg
 ## License
 
 I've chosen for no license as it's an osu! skin and not some revolutionary project. Don't be a fuck and steal elements, that's not cool. I encourage you to mix and match but always give credit where credit is due. Thanks!
+
+## References
+
+* [osu! Skinning Wiki](https://osu.ppy.sh/wiki/Skinning)
+* [Skinnable Files Detailed Spreadsheet](https://docs.google.com/spreadsheets/d/1bhnV-CQRMy3Z0npQd9XSoTdkYxz0ew5e648S00qkJZ8/)
