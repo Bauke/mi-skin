@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 64 64">
+    <rect width="90%" height="90%" x="5%" y="6%" fill="#616161" rx="5%" ry="5%"/>
+    <rect width="90%" height="90%" x="5%" y="4%" fill="#212121" rx="5%" ry="5%"/>
+    <path fill="#ffffff" d="M4,3H20A2,2 0 0,1 22,5V19A2,2 0 0,1 20,21H4A2,2 0 0,1 2,19V5A2,2 0 0,1 4,3M4,5V19H8V13H6.75V5H4M9,19H15V13H13.75V5H10.25V13H9V19M16,19H20V5H17.25V13H16V19Z" transform="translate(20,5)"/>
+    <text x="50%" y="78%" fill="#ffffff" font-family="sans-serif" font-size="20" text-anchor="middle">
+        4K
+    </text>
+</svg>
