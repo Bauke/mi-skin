@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="304px" height="100px" viewBox="0 0 760 280">
+    <defs>
+        <filter id="glow">
+            <feGaussianBlur result="coloredBlur" stdDeviation="2"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <text x="50%" y="204" fill="#757575" filter="url(#glow)" font-family="'Roboto Condensed'" font-size="200" text-anchor="middle">
+        Ranking
+    </text>
+    <text x="50%" y="200" fill="#EEEEEE" font-family="'Roboto Condensed'" font-size="200" text-anchor="middle">
+        Ranking
+    </text>
+    <rect width="505" height="15" x="80" y="223" fill="#757575" filter="url(#glow)"/>
+    <rect width="505" height="15" x="80" y="219" fill="#EEEEEE"/>
+</svg>
