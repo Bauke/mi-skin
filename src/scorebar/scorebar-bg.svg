@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500px" height="41px" viewBox="0 0 500 41">
+    <defs>
+        <filter id="glow">
+            <feGaussianBlur result="coloredBlur" stdDeviation="0.5"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect width="95%" height="50%" x="12" y="16" fill="none" stroke="#757575" stroke-width="3" filter="url(#glow)" rx="5" ry="5"/>
+    <rect width="95%" height="50%" x="12" y="14" fill="none" stroke="#424242" stroke-width="3" rx="5" ry="5"/>
+</svg>
