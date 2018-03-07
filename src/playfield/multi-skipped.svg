@@ -7,8 +7,6 @@
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
-    </defs>
-    <defs>
         <filter id="glow2">
             <feGaussianBlur result="coloredBlur" stdDeviation="0.4"/>
             <feMerge>
