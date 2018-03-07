@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="60px" viewBox="0 0 400 80">
+    <defs>
+        <filter id="glow">
+            <feGaussianBlur result="coloredBlur" stdDeviation="3"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="glow2">
+            <feGaussianBlur result="coloredBlur" stdDeviation="0.75"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <text x="50%" y="57" fill="#757575" filter="url(#glow)" font-family="'Roboto Condensed'" font-size="50" text-anchor="middle">
+        Unranked
+    </text>
+    <text x="50%" y="55" fill="#EEEEEE" font-family="'Roboto Condensed'" font-size="50" text-anchor="middle">
+        Unranked
+    </text>
+    <path fill="#757575" d="M13,13H11V7H13M13,17H11V15H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" filter="url(#glow2)" transform="translate(38,14.5) scale(2)"/>
+    <path fill="#EEEEEE" d="M13,13H11V7H13M13,17H11V15H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" transform="translate(38,12.5) scale(2)"/>
+</svg>
