@@ -1,3 +1,4 @@
+const archiver = require('archiver')
 const fs = require('fs')
 const klaw = require('klaw-sync')
 const path = require('path')
@@ -49,5 +50,29 @@ function createSkin(prod) {
       fs.renameSync(path.join(_dist, 'menu-background.png'), path.join(_dist, 'menu-background.jpg'))
       // Because it will convert all .svgs to .png we want to remove the test.svg we included
       fs.unlinkSync(path.join(_dist, 'test.png'))
+      if (prod) {
+        let zipfile = fs.createWriteStream(path.join(dist, 'MI Skin.zip'))
+        let archive = archiver('zip', { zlib: { level: 9 } })
+
+        archive.on('warning', (err) => {
+          if (err.code === 'ENOENT') {
+            console.log(err)
+          } else {
+            throw err
+          }
+        })
+
+        archive.on('error', (err) => {
+          throw err
+        })
+
+        // Open pipe to archive data to file
+        archive.pipe(zipfile)
+        // Append files from a directory and put the the contents at the root of the archive
+        archive.directory(_dist, false)
+        archive.finalize()
+        // Rename the .zip to .osk so we can easily open it with osu!
+        fs.renameSync(path.join(dist, 'MI Skin.zip'), path.join(dist, 'MI Skin.osk'))
+      }
     })
 }
