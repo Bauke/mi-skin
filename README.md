@@ -27,7 +27,7 @@ To build the skin you can run `yarn build`. This will completely remove `/dist`,
 
 The easiest way I've found to design elements is to use a text editor such as [VS Code](https://code.visualstudio.com/) and install a [SVG Preview](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) extension. Once you're satisfied with what it looks like in the preview you can build the files and copy them over to a folder in `osu!/Skins` and look at it in-game.
 
-Once you're done and want to easily get a folder with all the elements you can run `yarn prod`. This will put `/MI Skin` and all the elements into `/dist/MI Skin`. All that's left to do after is to zip it and rename to `.osk`
+Once you're done and want to easily get a folder with all the elements you can run `yarn prod`. This will create a folder called `MI Skin` under `/dist` and put archive this folder into a `.osk` file for distribution.
 
 ## Issues
 
