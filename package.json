@@ -1,6 +1,6 @@
 {
   "name": "mi-skin",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "archiver": "^2.1.1",
     "klaw-sync": "^3.0.2",
