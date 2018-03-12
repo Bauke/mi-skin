@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px">
+<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20 20">
     <defs>
         <filter id="blur" width="400%" height="400%" x="-100%" y="-100%">
             <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
