@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30px" height="90px">
+<svg xmlns="http://www.w3.org/2000/svg" width="30px" height="90px" viewBox="0 0 30 90">
     <defs>
         <filter id="glow">
             <feGaussianBlur result="coloredBlur" stdDeviation="3"/>
@@ -8,7 +8,7 @@
             </feMerge>
         </filter>
     </defs>
-    <rect width="95%" height="95%" x="0%" y="2.5%" fill="#37474F" filter="url(#glow)"/>
-    <rect width="95%" height="95%" x="0%" y="2.5%" fill="#546E7A"/>
-    <rect width="95%" height="2%" x="0%" y="91%" fill="#ffffff"/>
+    <rect width="95%" height="95%" x="0%" y="2.5%" fill="#424242" filter="url(#glow)"/>
+    <rect width="95%" height="95%" x="0%" y="2.5%" fill="#757575"/>
+    <rect width="95%" height="2%" x="0%" y="91%" fill="#EEEEEE"/>
 </svg>

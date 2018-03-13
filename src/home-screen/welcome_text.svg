@@ -1,14 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="550px" height="150px">
+<svg xmlns="http://www.w3.org/2000/svg" width="550px" height="150px" viewBox="0 0 550 150">
     <defs>
         <filter id="glow">
-            <feGaussianBlur result="coloredBlur" stdDeviation="3.75"/>
+            <feGaussianBlur result="coloredBlur" stdDeviation="2"/>
             <feMerge>
                 <feMergeNode in="coloredBlur"/>
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
         </filter>
     </defs>
-    <text x="50%" y="60%" filter="url(#glow)" font-family="'Exo 2 Light'" font-size="50pt" font-style="italic" style="fill: white" text-anchor="middle">
+    <text x="50%" y="62%" fill="#757575" filter="url(#glow)" font-family="'Roboto Condensed'" font-size="50pt" text-anchor="middle">
+        Welcome, to osu!
+    </text>
+    <text x="50%" y="60%" fill="#EEEEEE" font-family="'Roboto Condensed'" font-size="50pt" text-anchor="middle">
         Welcome, to osu!
     </text>
 </svg>
