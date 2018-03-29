@@ -6,7 +6,8 @@
     "klaw": "^2.1.1",
     "klaw-sync": "^3.0.2",
     "rimraf": "^2.6.2",
-    "svg-to-png": "^3.1.2"
+    "svg-to-png": "^3.1.2",
+    "through2": "^2.0.3"
   },
   "scripts": {
     "test": "node convert.js --test",
