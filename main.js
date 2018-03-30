@@ -81,7 +81,7 @@ function convert(options) {
           if (error) console.log(error)
           fs.writeFileSync(path.join(_dist, 'menu-background.jpg'), buffer)
         })
-        if (prod) {
+        if (options.prod) {
           let zipfile = fs.createWriteStream(path.join(dist, 'MI Skin.zip'))
           let archive = archiver('zip', { zlib: { level: 9 } })
 
