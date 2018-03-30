@@ -1,0 +1,41 @@
+# Title: MI Skin [STD/TAIKO/CTB]
+# Cover image: ./img/cover-image.jpg
+
+
+# Forum post start
+
+[heading]MI Skin[/heading]
+MI stands for [url=https://material.io/]Material[/url] Inspired.
+
+My first skin, born out of my inability to find a skin that I could play with consistently and also liked the look of. This skin is open-source on [url=https://github.com/Bauke/mi-skin]GitHub[/url] and open to contributions. It's created using [url=https://en.wikipedia.org/wiki/Scalable_Vector_Graphics]Scalable Vector Graphics[/url] which are then converted to the PNG files used by osu!. Because they are SVGs this allows me to make 1 version for both the SD and HD version and then just double the resolution for the SVG to be converted. However this is [url=https://github.com/Bauke/mi-skin/issues/4]not yet implemented[/url].
+If you know your way around JavaScript and/or SVGs you're more than welcome to [url=https://github.com/Bauke/mi-skin]help out![/url]
+
+If you want to suggest a change or alternative version of an element don't hesitate to [url=https://github.com/Bauke/mi-skin/issues/new]submit an issue[/url] on GitHub or contact me on Discord: [b]Bauke#7065[/b]
+
+[box=Screenshots (Large Images)][heading][url=https://postimg.org/gallery/2tjmg5enw/][centre]View images in a gallery[/centre][/url][/heading]
+[img]https://s9.postimg.org/682spk8un/song-selection.png[/img]
+
+[img]https://s9.postimg.org/hkfe7a4nz/mods-selection.png[/img]
+
+[img]https://s9.postimg.org/ppxg5haxb/playing-standard_1.png[/img]
+
+[img]https://s9.postimg.org/mvuas0tbj/playing-standard_2.png[/img]
+
+[img]https://s9.postimg.org/55sm702vz/playing-standard_3.png[/img]
+
+[img]https://s9.postimg.org/rhqf0d74v/playing-taiko_1.png[/img]
+
+[img]https://s9.postimg.org/tmas1g11r/playing-taiko_2.png[/img]
+
+[img]https://s9.postimg.org/pd61z9icv/playing-catch_1.png[/img]
+
+[img]https://s9.postimg.org/3qr1i9mdb/playing-catch_2.png[/img]
+
+[img]https://s9.postimg.org/4g9tunhrz/result-screen_1.png[/img]
+
+[img]https://s9.postimg.org/ppxg5hqcv/result-screen_2.png[/img][/box]
+[box=Downloads]For now the download will only be available through GitHub to manage the versions better. When the point comes for a major (1.0.0) release I'll make it available through Puush and the likes. If you can't see where to download it's the file called [b]MI_Skin.osk[/b] just under [b]Assets[/b].
+[heading][url=https://github.com/Bauke/mi-skin/releases/latest][centre]GitHub[/centre][/url][/heading][/box]
+[box=Disclaimer]This is still very much a work in progress, I intend to start skinning Mania as soon as possible however looking at the documentation on that it might take a bit more time than Standard or Taiko since there's so much more support for it. And just more customization in general.[/box]
+
+# Forum post end
