@@ -11,8 +11,11 @@
     "through2": "^2.0.3"
   },
   "scripts": {
-    "test": "node convert.js --test",
-    "build": "node convert.js --build",
-    "prod": "node convert.js --prod"
+    "testOld": "node convert.js --test",
+    "buildOld": "node convert.js --build",
+    "prodOld": "node convert.js --prod",
+    "test": "node main.js --test",
+    "build": "node main.js --build",
+    "prod": "node main.js --prod"
   }
 }
