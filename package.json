@@ -1,19 +1,15 @@
 {
   "name": "mi-skin",
   "version": "0.4.0",
+  "main": "main.js",
   "dependencies": {
     "archiver": "^2.1.1",
     "klaw": "^2.1.1",
-    "klaw-sync": "^3.0.2",
     "rimraf": "^2.6.2",
-    "svg-to-png": "^3.1.2",
     "svg2img": "^0.3.0",
     "through2": "^2.0.3"
   },
   "scripts": {
-    "testOld": "node convert.js --test",
-    "buildOld": "node convert.js --build",
-    "prodOld": "node convert.js --prod",
     "test": "node main.js --test",
     "build": "node main.js --build",
     "prod": "node main.js --prod"
