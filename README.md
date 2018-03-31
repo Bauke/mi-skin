@@ -39,6 +39,7 @@ I've chosen for no license as it's an osu! skin and not some revolutionary proje
 
 ## References
 
+* [osu! Forums post](https://osu.ppy.sh/community/forums/topics/723213)
 * [osu! Skinning Wiki](https://osu.ppy.sh/wiki/Skinning)
 * [Skinnable Files Detailed Spreadsheet](https://docs.google.com/spreadsheets/d/1bhnV-CQRMy3Z0npQd9XSoTdkYxz0ew5e648S00qkJZ8/)
 * [Material Color Palette](https://material.io/guidelines/style/color.html#color-color-palette)
