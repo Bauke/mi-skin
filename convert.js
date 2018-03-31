@@ -1,12 +1,3 @@
-/*
-
-OLD CONVERTER!
-New one is located at ./main.js
-
-This one will be deleted on 1st of April.
-
-*/
-
 const archiver = require('archiver')
 const fs = require('fs')
 const klaw = require('klaw')
