@@ -19,15 +19,13 @@ Go to [releases](https://github.com/Bauke/mi-skin/releases) and download the `.o
 
 Clone the repository and run `yarn`.
 
-After cloning and installing run `yarn test` to see if [svg-to-png](https://yarnpkg.com/package/svg-to-png) is working correctly. You should get a `test.png` in `/dist`.
+After cloning and installing run `yarn test` to see if [svg-to-img](https://github.com/etienne-martin/svg-to-img) is working correctly.
 
-To build the skin you can run `yarn build`. This will completely remove `/dist`, build all the files again and copy the `skin.ini` over.
+To build the skin you can run `yarn build`. This will create a folder with the skin files and a `.osk`
 
 ### Workflow
 
-The easiest way I've found to design elements is to use a text editor such as [VS Code](https://code.visualstudio.com/) and install a [SVG Preview](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) extension. Once you're satisfied with what it looks like in the preview you can build the files and copy them over to a folder in `osu!/Skins` and look at it in-game.
-
-Once you're done and want to easily get a folder with all the elements you can run `yarn prod`. This will create a folder called `MI Skin` under `/dist` and archive this folder into a `.osk` file for distribution.
+The easiest way I've found to design elements is to use a text editor such as [VS Code](https://code.visualstudio.com/) and install a [SVG Preview](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) extension. Once you're satisfied with what it looks like in the preview you can build the files and open the `.osk`.
 
 ## Issues
 
