@@ -6,7 +6,7 @@
     "archiver": "^2.1.1",
     "klaw": "^2.1.1",
     "rimraf": "^2.6.2",
-    "svg-to-img": "^2.0.5",
+    "svg-to-img": "^2.0.6",
     "through2": "^2.0.3"
   },
   "scripts": {
