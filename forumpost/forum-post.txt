@@ -7,7 +7,7 @@
 [heading]MI Skin[/heading]
 MI stands for [url=https://material.io/]Material[/url] Inspired.
 
-My first skin, born out of my inability to find a skin that I could play with consistently and also liked the look of. This skin is open-source on [url=https://github.com/Bauke/mi-skin]GitHub[/url] and open to contributions. It's created using [url=https://en.wikipedia.org/wiki/Scalable_Vector_Graphics]Scalable Vector Graphics[/url] which are then converted to the PNG files used by osu!. Because they are SVGs this allows me to make 1 version for both the SD and HD version and then just double the resolution for the SVG to be converted. However this is [url=https://github.com/Bauke/mi-skin/issues/4]not yet implemented[/url].
+My first skin, born out of my inability to find a skin that I could play with consistently and also liked the look of. This skin is open-source on [url=https://github.com/Bauke/mi-skin]GitHub[/url] and open to contributions. It's created using [url=https://en.wikipedia.org/wiki/Scalable_Vector_Graphics]Scalable Vector Graphics[/url] which are then converted to the PNG files used by osu!. Because they are SVGs this allows me to make 1 version for both the SD and HD version and then just double the resolution for the SVG to be converted. [s]However this is [url=https://github.com/Bauke/mi-skin/issues/4]not yet implemented[/url].[/s] Starting from v0.4.0 both regular and @2x are supported!
 If you know your way around JavaScript and/or SVGs you're more than welcome to [url=https://github.com/Bauke/mi-skin]help out![/url]
 
 If you want to suggest a change or alternative version of an element don't hesitate to [url=https://github.com/Bauke/mi-skin/issues/new]submit an issue[/url] on GitHub or contact me on Discord: [b]Bauke#7065[/b]
