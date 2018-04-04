@@ -34,8 +34,8 @@ If you want to suggest a change or alternative version of an element don't hesit
 [img]https://s9.postimg.org/4g9tunhrz/result-screen_1.png[/img]
 
 [img]https://s9.postimg.org/ppxg5hqcv/result-screen_2.png[/img][/box]
-[box=Downloads]For now the download will only be available through GitHub to manage the versions better. When the point comes for a major (1.0.0) release I'll make it available through Puush and the likes. If you can't see where to download it's the file called [b]MI_Skin.osk[/b] just under [b]Assets[/b].
+[box=Downloads]For now the download will only be available through GitHub to manage the versions better. When the point comes for a major (1.0.0) release I'll make it available through Puush and the likes. If you can't see where to download it's the file called [b]MI_Skin.osk[/b] just under [b]Assets[/b]. Starting from v0.5.0 all modes are skinned!
 [heading][url=https://github.com/Bauke/mi-skin/releases/latest][centre]GitHub[/centre][/url][/heading][/box]
-[box=Disclaimer]This is still very much a work in progress, I intend to start skinning Mania as soon as possible however looking at the documentation on that it might take a bit more time than Standard or Taiko since there's so much more support for it. And just more customization in general.[/box]
+[box=Disclaimer]This is still very much a work in progress, there's still issues and things to fix as well as some extra features to work on.[/box]
 
 # Forum post end
