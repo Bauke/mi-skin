@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="256px" height="256px" viewBox="0 0 256 256">
+    <defs>
+        <filter id="glow">
+            <feGaussianBlur result="coloredBlur" stdDeviation="5"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <circle cx="50%" cy="50%" r="22.65%" fill="#EEEEEE" stroke="#FFFFFF" stroke-width="5" filter="url(#glow)" opacity="0.75"/>
+</svg>
