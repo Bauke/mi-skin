@@ -1,6 +1,6 @@
 {
   "name": "mi-skin",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "main": "main.js",
   "dependencies": {
     "archiver": "^2.1.1",
