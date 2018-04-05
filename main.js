@@ -85,10 +85,23 @@ rimraf(dist, (error) => {
           } else {
             // Read the file
             fs.readFile(file, { encoding: 'utf-8' }, async (error, data) => {
+              // Create a let for the output path
+              let outputPath = path.join(_dist, path.basename(file, '.svg') + '.png')
+              if (file.includes('extras')) {
+                // If the file is located under extras in src
+                // Change the output path so it's it'll be in dist/MI Skin/Extras/...
+                outputPath = path.join(_dist, 'Extras', path.dirname(file.substring(file.indexOf('extras') + 7, file.length)), path.basename(file, '.svg') + '.png')
+                // Make sure both the Extras and the folder it's originally located in under src/extras exists
+                // Example: we want to make sure MI Skin/Extras/followpoints/... has only the followpoint files
+                // We want to keep the directory structure from src and copy it here
+                // There's probably a better way to do this all but this works and the running time doesn't seem to have been negatively affected
+                if (!fs.existsSync(path.join(_dist, 'Extras'))) fs.mkdirSync(path.join(_dist, 'Extras'))
+                if (!fs.existsSync(path.dirname(outputPath))) fs.mkdirSync(path.dirname(outputPath))
+              }
               // With the data buffer convert it to a PNG
               await svgToImg.from(data).to({
                 type: 'png',
-                path: path.join(_dist, path.basename(file, '.svg') + '.png')
+                path: outputPath
               }).catch((result) => {
                 // Catch any errors from converting
                 console.log(result)
@@ -96,9 +109,10 @@ rimraf(dist, (error) => {
                 // When the converting finishes get the size of the file ...
                 const dimensions = sizeOf(file)
                 // ... and convert it again, this time being twice the resolution (for HD version)
+                // for the outputPath we also want to change the filename at the end to @2x.png, because it's the HD version ofcourse
                 await svgToImg.from(data).to({
                   type: 'png',
-                  path: path.join(_dist, path.basename(file, '.svg') + '@2x.png'),
+                  path: outputPath.substring(0, outputPath.length - 4) + '@2x.png',
                   width: dimensions.width * 2,
                   height: dimensions.height * 2
                 })
