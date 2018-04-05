@@ -5,6 +5,7 @@ const klaw = require('klaw')
 const path = require('path')
 const rimraf = require('rimraf')
 const sizeOf = require('image-size')
+const shell = require('shelljs')
 const svgToImg = require('svg-to-img')
 const through2 = require('through2')
 
@@ -91,12 +92,7 @@ rimraf(dist, (error) => {
                 // If the file is located under extras in src
                 // Change the output path so it's it'll be in dist/MI Skin/Extras/...
                 outputPath = path.join(_dist, 'Extras', path.dirname(file.substring(file.indexOf('extras') + 7, file.length)), path.basename(file, '.svg') + '.png')
-                // Make sure both the Extras and the folder it's originally located in under src/extras exists
-                // Example: we want to make sure MI Skin/Extras/followpoints/... has only the followpoint files
-                // We want to keep the directory structure from src and copy it here
-                // There's probably a better way to do this all but this works and the running time doesn't seem to have been negatively affected
-                if (!fs.existsSync(path.join(_dist, 'Extras'))) fs.mkdirSync(path.join(_dist, 'Extras'))
-                if (!fs.existsSync(path.dirname(outputPath))) fs.mkdirSync(path.dirname(outputPath))
+                if (!fs.existsSync(outputPath)) shell.mkdir('-p', path.dirname(outputPath))
               }
               // With the data buffer convert it to a PNG
               await svgToImg.from(data).to({
