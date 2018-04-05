@@ -40,7 +40,7 @@ If you encounter any problems with the skin, developing the skin or want to sugg
 
 ## License
 
-I've chosen for no license as it's an osu! skin and not some revolutionary project. Don't be a fuck and steal elements, that's not cool. I encourage you to mix and match but always give credit where credit is due. Thanks!
+Licensed under [MIT](https://github.com/Bauke/mi-skin/blob/master/LICENSE.md).
 
 ## References
 

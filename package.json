@@ -2,6 +2,7 @@
   "name": "mi-skin",
   "version": "0.6.0",
   "main": "main.js",
+  "license": "MIT",
   "dependencies": {
     "archiver": "^2.1.1",
     "image-size": "^0.6.2",
