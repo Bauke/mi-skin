@@ -10,8 +10,15 @@ Go to [releases](https://github.com/Bauke/mi-skin/releases) and download the `.o
 
 ### Requirements
 
+#### Software
+
 * [Node JS](https://nodejs.org/)
 * [Yarn](https://yarnpkg.com) or [NPM](https://www.npmjs.com/)
+
+#### Fonts
+* [Roboto Medium](https://fonts.google.com/specimen/Roboto)
+* [Roboto Condensed](https://fonts.google.com/specimen/Roboto%20Condensed)
+* [Crete Round](https://fonts.google.com/specimen/Crete%20Round)
 
 ### Installation
 
