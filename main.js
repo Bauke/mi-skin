@@ -85,7 +85,7 @@ rimraf(dist, (error) => {
           } else {
             // Read the file
             fs.readFile(file, { encoding: 'utf-8' }, async (error, data) => {
-              // With the data buffer convert it to a JPEG
+              // With the data buffer convert it to a PNG
               await svgToImg.from(data).to({
                 type: 'png',
                 path: path.join(_dist, path.basename(file, '.svg') + '.png')
