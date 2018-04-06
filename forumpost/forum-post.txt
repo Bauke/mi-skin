@@ -12,28 +12,52 @@ If you know your way around JavaScript and/or SVGs you're more than welcome to [
 
 If you want to suggest a change or alternative version of an element don't hesitate to [url=https://github.com/Bauke/mi-skin/issues/new]submit an issue[/url] on GitHub or contact me on Discord: [b]Bauke#7065[/b]
 
-[box=Screenshots (Large Images)][heading][url=https://postimg.org/gallery/2tjmg5enw/][centre]View images in a gallery[/centre][/url][/heading]
-[img]https://s9.postimg.org/682spk8un/song-selection.png[/img]
+[box=Screenshots (Large Images)][heading][url=https://postimg.org/gallery/2u3gwwrlo/][centre]View images in a gallery[/centre][/url][/heading]
+[img]https://s9.postimg.org/hpk5v2wcv/mods-selection.png[/img]
 
-[img]https://s9.postimg.org/hkfe7a4nz/mods-selection.png[/img]
+[img]https://s9.postimg.org/y0k9revzz/pause-screen.png[/img]
 
-[img]https://s9.postimg.org/ppxg5haxb/playing-standard_1.png[/img]
+[img]https://s9.postimg.org/lyovx97bz/playing-catch_1.png[/img]
 
-[img]https://s9.postimg.org/mvuas0tbj/playing-standard_2.png[/img]
+[img]https://s9.postimg.org/az3olor7j/playing-catch_2.png[/img]
 
-[img]https://s9.postimg.org/55sm702vz/playing-standard_3.png[/img]
+[img]https://s9.postimg.org/i2bk1b4cv/playing-catch_3.png[/img]
 
-[img]https://s9.postimg.org/rhqf0d74v/playing-taiko_1.png[/img]
+[img]https://s9.postimg.org/w8rawi4xb/playing-mania-4k.png[/img]
 
-[img]https://s9.postimg.org/tmas1g11r/playing-taiko_2.png[/img]
+[img]https://s9.postimg.org/ju4iw78a7/playing-mania-7k.png[/img]
 
-[img]https://s9.postimg.org/pd61z9icv/playing-catch_1.png[/img]
+[img]https://s9.postimg.org/t1wrcvzwv/playing-mania-coop-2k.png[/img]
 
-[img]https://s9.postimg.org/3qr1i9mdb/playing-catch_2.png[/img]
+[img]https://s9.postimg.org/bomgy1cbj/playing-mania-coop-9k.png[/img]
 
-[img]https://s9.postimg.org/4g9tunhrz/result-screen_1.png[/img]
+[img]https://s9.postimg.org/5axduukb3/playing-standard_1.png[/img]
 
-[img]https://s9.postimg.org/ppxg5hqcv/result-screen_2.png[/img][/box]
+[img]https://s9.postimg.org/trfjpc873/playing-standard_2.png[/img]
+
+[img]https://s9.postimg.org/vvzwqd4nz/playing-standard_3.png[/img]
+
+[img]https://s9.postimg.org/7fhqvxtnj/playing-standard_4.png[/img]
+
+[img]https://s9.postimg.org/72qcpq133/playing-standard_5-dots.png[/img]
+
+[img]https://s9.postimg.org/dt6tz769b/playing-standard_6-dots.png[/img]
+
+[img]https://s9.postimg.org/nqhus83kf/playing-standard_7.png[/img]
+
+[img]https://s9.postimg.org/5nos10ffj/playing-standard_8.png[/img]
+
+[img]https://s9.postimg.org/a9kw9d8of/playing-taiko_1.png[/img]
+
+[img]https://s9.postimg.org/y0k9rhglb/playing-taiko_2.png[/img]
+
+[img]https://s9.postimg.org/48n7ccji7/result-screen_1.png[/img]
+
+[img]https://s9.postimg.org/fxr70anbj/result-screen_2.png[/img]
+
+[img]https://s9.postimg.org/irucdr4xb/result-screen_3.png[/img]
+
+[img]https://s9.postimg.org/utpq7w6fz/song-selection.png[/img][/box]
 [box=Downloads]For now the download will only be available through GitHub to manage the versions better. When the point comes for a major (1.0.0) release I'll make it available through Puush and the likes. If you can't see where to download it's the file called [b]MI_Skin.osk[/b] just under [b]Assets[/b]. Starting from v0.5.0 all modes are skinned!
 [heading][url=https://github.com/Bauke/mi-skin/releases/latest][centre]GitHub[/centre][/url][/heading][/box]
 [box=Disclaimer]This is still very much a work in progress, there's still issues and things to fix as well as some extra features to work on.[/box]
