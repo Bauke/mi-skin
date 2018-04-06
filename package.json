@@ -1,19 +1,19 @@
 {
-  "name": "mi-skin",
-  "version": "0.6.0",
-  "main": "main.js",
-  "license": "MIT",
-  "dependencies": {
-    "archiver": "^2.1.1",
-    "image-size": "^0.6.2",
-    "klaw": "^2.1.1",
-    "rimraf": "^2.6.2",
-    "shelljs": "^0.8.1",
-    "svg-to-img": "^2.0.6",
-    "through2": "^2.0.3"
-  },
-  "scripts": {
-    "build": "node main.js",
-    "test": "node test.js"
-  }
+	"name": "mi-skin",
+	"version": "1.0.0",
+	"main": "main.js",
+	"license": "MIT",
+	"dependencies": {
+		"archiver": "^2.1.1",
+		"image-size": "^0.6.2",
+		"klaw": "^2.1.1",
+		"rimraf": "^2.6.2",
+		"shelljs": "^0.8.1",
+		"svg-to-img": "^2.0.6",
+		"through2": "^2.0.3"
+	},
+	"scripts": {
+		"build": "node main.js",
+		"test": "node test.js"
+	}
 }
