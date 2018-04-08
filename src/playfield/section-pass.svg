@@ -15,8 +15,6 @@
             </feMerge>
         </filter>
     </defs>
-    <circle cx="50%" cy="52%" r="40%" fill="#757575" filter="url(#glow)"/>
-    <circle cx="50%" cy="50%" r="40%" fill="#424242"/>
     <path fill="#757575" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" filter="url(#glow2)" transform="scale(10) translate(14,14.75)"/>
     <path fill="#EEEEEE" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" transform="scale(10) translate(14,14)"/>
 </svg>
