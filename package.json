@@ -12,6 +12,9 @@
 		"svg-to-img": "^2.0.6",
 		"through2": "^2.0.3"
 	},
+	"devDependencies": {
+		"eslint": "^4.19.1"
+	},
 	"scripts": {
 		"build": "node main.js",
 		"test": "node test.js"
