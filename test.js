@@ -7,7 +7,6 @@ const fs = require('fs')
 const path = require('path')
 const rimraf = require('rimraf')
 const svgToImg = require('svg-to-img')
-const through2 = require('through2')
 
 // Define commonly used paths
 const src = path.join(__dirname, 'src')
