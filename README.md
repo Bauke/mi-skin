@@ -49,3 +49,9 @@ Licensed under [MIT](https://github.com/Bauke/mi-skin/blob/master/LICENSE.md).
 * [Skinnable Files Detailed Spreadsheet](https://docs.google.com/spreadsheets/d/1bhnV-CQRMy3Z0npQd9XSoTdkYxz0ew5e648S00qkJZ8/)
 * [Material Color Palette](https://material.io/guidelines/style/color.html#color-color-palette)
 * [Material Design Icons](https://materialdesignicons.com/)
+
+## Special Thanks
+
+Shout out to these people for helping out and testing!
+* [Swonkles](https://osu.ppy.sh/users/9422405)
+* [TheFallenAngeI](https://osu.ppy.sh/users/4273920)
