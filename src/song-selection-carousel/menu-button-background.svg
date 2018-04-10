@@ -8,6 +8,6 @@
             </feMerge>
         </filter>
     </defs>
-    <rect width="99.5%" height="90%" x="0.25%" y="5%" fill="#37474F" filter="url(#glow)"/>
-    <rect width="99.5%" height="2%" x="0.25%" y="91%" fill="#90A4AE"/>
+    <rect width="97.867%" height="90%" x="1.0665%" y="5%" fill="#37474F" filter="url(#glow)"/>
+    <rect width="97.867%" height="2%" x="1.0665%" y="91%" fill="#90A4AE"/>
 </svg>
