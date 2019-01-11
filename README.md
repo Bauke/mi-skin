@@ -1,3 +1,5 @@
+**Due to personal reasons this project is archived indefinitely, you can still download and/or build the skin yourself (or fork the repo) I'll just not be working on it.**
+
 # MI Skin for [osu!](https://osu.ppy.sh/home/)
 
 > MI stands for Material Inspired.
@@ -36,7 +38,7 @@ The easiest way I've found to design elements is to use a text editor such as [V
 
 ## Issues
 
-If you encounter any problems with the skin, developing the skin or want to suggest something to change. [Open an issue](https://github.com/Bauke/mi-skin/issues) or contact me on Discord: `Bauke#7065`
+If you encounter any problems with the skin, developing the skin or want to suggest something to change. [Open an issue](https://github.com/Bauke/mi-skin/issues) or contact me via email: [me@bauke.xyz](mailto:me@bauke.xyz)
 
 ## License
 
